@@ -1,8 +1,41 @@
-# React + Vite
+# Assembly: Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Assembly: Endgame** is a word-guessing game where players attempt to guess a word within a limited number of attempts in order to escape assembly. Made through Scrimbas React-course
 
-Currently, two official plugins are available:
+## Try it out live 🌐
+- https://adams-assembly-react-game.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used 🛠️
+
+- **React**: For building the user interface with components and managing state using hooks like `useState`.
+- **Vite**: For a fast and optimized development environment.
+- **CSS**: For styling the components and enhancing the user interface.
+
+---
+
+## Libraries 📚
+
+- **clsx**: To conditionally manage class names for styling and state-based logic.
+- **react-confetti**: To add celebratory confetti effects when the player wins.
+
+---
+
+## Features 📋
+
+🎯 **Guess the Word**:  
+Guess the hidden word by selecting letters from the on-screen keyboard.
+
+🔤 **Dynamic Feedback**:  
+Get real-time visual feedback for correct and incorrect guesses.
+
+🔄 **Interactive Chips**:  
+Programming language "chips" visually track your progress and add thematic flair.
+
+🎉 **Win Condition**:  
+Reveal the entire word within the allowed number of guesses to win, triggering a confetti celebration.
+
+😭 **Game Over**:  
+Lose the game if you run out of guesses—Assembly claims another victim.
+
+🔄 **New Game**:  
+Start a fresh game with a new random word by clicking the "New Game" button.
